@@ -1,0 +1,11 @@
+
+count=0
+while True:
+   age=int(input("enter age(-1 to stop):"))
+   if age == -1:
+        break
+   if age < 1 or age > 120:
+        continue
+   count+=1
+   print("valid ages count",count)
+
